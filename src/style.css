@@ -1,0 +1,9 @@
+ul,
+li {
+    color: currentColor;
+    list-style: none;
+}
+
+.bg {
+    background-color: #F5F5F5;
+  }
