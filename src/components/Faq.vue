@@ -2,12 +2,8 @@
     <div class="container py-5" id="faq-section">
         <div class="row row-cols-1 row-cols-md-2 align-items-center">
             <div class="col">
-                <h1 class="my-4">Frequently asked questions</h1>
-                <p class="fs-5 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. A itaque magnam nesciunt
-                    quisquam
-                    iusto amet
-                    repellat earum, voluptates adipisci! Rerum dolores ducimus ex dolorem fugit dicta totam accusantium
-                    veritatis est.</p>
+                <h1 class="my-4">{{ title }}</h1>
+                <p class="fs-5 lh-sm">{{ content }}</p>
             </div>
             <div class="col py-4 py-md-0">
                 <div class="accordion " id="faqAccordion">
@@ -36,6 +32,8 @@
 export default {
     data() {
         return {
+            title: 'Frequently asked questions',
+            content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
             faqs: [
                 {
                     request: 'How can I place an order?',

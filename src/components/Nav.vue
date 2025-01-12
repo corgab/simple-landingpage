@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg ">
+    <nav class="navbar navbar-expand-lg bg">
         <div class="container">
             <a class="navbar-brand" href="">
                 <img :src="img" alt="Logo" class="d-inline-block align-text-top pe-2">{{ navTitle

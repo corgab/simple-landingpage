@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid py-5" id="testimonials-section">
+    <div class="container py-5" id="testimonials-section">
         <div class="row align-items-center">
             <div class="col-auto col-md-5 border rounded-5 shadow py-3 mx-auto my-3 my-md-5" v-for="review in reviews">
                 <div>
