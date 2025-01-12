@@ -1,6 +1,6 @@
 <template>
     <div class="container py-5" id="faq-section">
-        <div class="row row-cols-2 align-items-center">
+        <div class="row row-cols-1 row-cols-md-2 align-items-center">
             <div class="col">
                 <h1 class="my-4">Frequently asked questions</h1>
                 <p class="fs-5 lh-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. A itaque magnam nesciunt
@@ -9,7 +9,7 @@
                     repellat earum, voluptates adipisci! Rerum dolores ducimus ex dolorem fugit dicta totam accusantium
                     veritatis est.</p>
             </div>
-            <div class="col">
+            <div class="col py-4 py-md-0">
                 <div class="accordion " id="faqAccordion">
                     <div class="accordion-item mb-3 rounded" v-for="(faq, index) in faqs" :key="index">
                         <h2 class="accordion-header" :id="'heading' + index">

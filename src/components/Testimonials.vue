@@ -1,7 +1,7 @@
 <template>
-    <div class="container py-5" id="testimonials-section">
-        <div class="row justify-content-center align-items-center gap-3">
-            <div class="col-3 border rounded-5 shadow py-3" v-for="review in reviews">
+    <div class="container-fluid py-5" id="testimonials-section">
+        <div class="row align-items-center">
+            <div class="col-auto col-md-5 border rounded-5 shadow py-3 mx-auto my-3 my-md-5" v-for="review in reviews">
                 <div>
                     <div class="fs-4 lh-sm">{{ review.content }}</div>
                 </div>

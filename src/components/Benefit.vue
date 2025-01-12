@@ -1,7 +1,7 @@
 <template>
     <div class="container py-5" id="benefits-section">
-        <div class="card-group gap-5 ">
-            <div class="card mb-3 text-center shadow rounded" style="width: 10rem;" v-for="card in cards">
+        <div class="card-group gap-5">
+            <div class="card mb-3 text-center shadow rounded" v-for="card in cards">
                 <img :src="card.img" class="card-img-top" alt="logo">
                 <div class="card-body">
                     <h5 class="card-title fs-2 fw-normal">{{ card.content }}</h5>
