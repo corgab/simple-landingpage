@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import carlo from '../assets/carlo.jpg';
-import giulia from '../assets/giulia.jpg';
-import pietro from '../assets/pietro.jpg'
+import carlo from '../assets/carlo.webp';
+import giulia from '../assets/giulia.webp';
+import pietro from '../assets/pietro.webp'
 export default {
     data() {
         return {

@@ -12,9 +12,9 @@
     </div>
 </template>
 <script>
-import womanAtPc from '../assets/donna-al-pc.jpg';
-import confusedMan from '../assets/uomo-confuso.jpg';
-import robotWine from '../assets/robot-vino.jpg'
+import womanAtPc from '../assets/donna-al-pc.webp';
+import confusedMan from '../assets/uomo-confuso.webp';
+import robotWine from '../assets/robot-vino.webp'
 export default {
     data() {
         return {

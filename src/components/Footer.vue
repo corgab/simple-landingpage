@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between ">
             <div class="col">
                 <h1>{{ title }}</h1>
                 <p>{{ description }}</p>
             </div>
-            <div class="row col">
-                <div class="col col-md-4">
+            <div class="row row-cols-1 row-cols-md-3 flex-wrap col p-0 text-center text-md-start">
+                <div class="col col-md-4 ">
                     <h1>Legal</h1>
                     <ul class="p-0">
                         <li><a href="">Privacy policy</a></li>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col col-md-4">
                     <h1>Socials</h1>
-                    <ul>
+                    <ul class="p-0">
                         <li><a href="">Instagram</a></li>
                         <li><a href="">Facebook</a></li>
                         <li><a href="">Linkedin</a></li>

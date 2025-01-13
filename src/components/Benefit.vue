@@ -18,9 +18,9 @@
 </template>
 
 <script>
-import manAtPc from '../assets/uomo-al-pc.jpg';
-import handshake from '../assets/stretta-di-mano.jpg';
-import upGraph from '../assets/grafico-salita.jpg'
+import manAtPc from '../assets/uomo-al-pc.webp';
+import handshake from '../assets/stretta-di-mano.webp';
+import upGraph from '../assets/grafico-salita.webp'
 export default {
     data() {
         return {
