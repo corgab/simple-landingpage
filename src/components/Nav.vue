@@ -32,7 +32,7 @@ export default {
                 },
                 {
                     href: "#applycases-section",
-                    name: "A chi è rivolto"
+                    name: "Who It's For"
                 },
                 {
                     href: "#features-section",
@@ -46,9 +46,7 @@ export default {
                     href: "#faq-section",
                     name: "FAQ"
                 },
-
             ]
-
         }
     }
 }

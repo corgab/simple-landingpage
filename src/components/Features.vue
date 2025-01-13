@@ -1,17 +1,16 @@
 <template>
     <div class="container py-5" id="features-section">
-        <div class="row row-cols-2 align-items-center">
+        <div class="row row-cols-1 row-cols-sm-2 align-items-center align-items-md-start justify-content-center">
             <div class="col">
                 <h1 class="py-3">{{ title }}</h1>
                 <ul class="d-flex gap-3 p-0 flex-wrap">
-                    <li class="border rounded  text-center d-inline-block px-3 py-1" v-for="card in cards">{{ card
-                        }}
-                    </li>
+                    <li class="border rounded text-center d-inline-block btn btn-lg btn-white" v-for="card in cards">
+                        {{ card }}</li>
                 </ul>
             </div>
-            <div class="col">
-                <div class="text-center">
-                    <img src="https://picsum.photos/500/500" alt="photo" class="img-fluid ">
+            <div class="col py-3 py-sm-0">
+                <div class="d-flex justify-content-center">
+                    <img :src="GIF" alt="photo" class="img-fluid w-75">
                 </div>
 
             </div>
@@ -20,11 +19,13 @@
 </template>
 
 <script>
+import GIF from '../assets/piccione.gif'
 export default {
     data() {
         return {
+            GIF,
             title: 'Features',
-            cards: ['ciao', 'ciao1', 'ciao2', 'ciao3', 'ciao4', 'ciao5', 'ciao6', 'ciao7', 'ciao8',]
+            cards: ['Simplicity', 'Speed', 'Customization', 'Accessibility', 'Intuitiveness', 'Flexibility', 'Efficiency', 'Automation', 'Ease of use']
         }
     }
 }

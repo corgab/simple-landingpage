@@ -30,7 +30,15 @@ export default {
     Testimonials,
     Faq,
     Footer
-  }
+  },
+  mounted() {
+    setTimeout(() => {
+      this.$gtag.event('time_on_page', {
+        event_category: 'engagement',
+        event_label: 'Tempo passato sulla pagina: 10 secondi',
+      });
+    }, 10000);
+  },
 }
 </script>
 

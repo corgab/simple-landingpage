@@ -1,33 +1,36 @@
 <template>
-    <div class="container py-5" id="applycases-section">
-        <h1 class="fs-1 fw-bold text-center pb-5">{{ title }}</h1>
-        <div class="row row-cols-1 row-cols-md-3 justify-content-evenly pt-3 gap-md-1 gap-lg-0">
-            <div class="text-center col py-3 py-lg-0" v-for="card in cards">
-                <img :src="card.img" alt="" style="width:15rem">
-                <h1 class="fs-4 fw-normal lh-base py-4">{{ card.content }}</h1>
+    <div class="container-lg py-5" id="applycases-section">
+        <h1 class="fs-1 fw-bold text-center pb-3">{{ title }}</h1>
+        <div class="row justify-content-between pt-3 gap-lg-0">
+            <div class="text-center col-12 col-md-4 py-4 py-lg-0 px-md-2 px-lg-5" v-for="card in cards">
+                <img :src="card.img" alt="" class="img-fluid rounded-cirlce"
+                    style="width: 15rem; height: 15rem; object-fit: cover;">
+                <h1 class="fs-4 fw-medium lh-base py-3 ">{{ card.content }}</h1>
             </div>
         </div>
 
     </div>
 </template>
-
 <script>
+import womanAtPc from '../assets/donna-al-pc.jpg';
+import confusedMan from '../assets/uomo-confuso.jpg';
+import robotWine from '../assets/robot-vino.jpg'
 export default {
     data() {
         return {
-            title: 'Title',
+            title: 'Who It\'s For',
             cards: [
                 {
-                    img: 'https://picsum.photos/500/500',
-                    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, sint?'
+                    img: womanAtPc,
+                    content: 'Want to make yourself known on the web'
                 },
                 {
-                    img: 'https://picsum.photos/500/500',
-                    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, sint?'
+                    img: confusedMan,
+                    content: 'You don\'t have computer knowledge'
                 },
                 {
-                    img: 'https://picsum.photos/500/500',
-                    content: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, sint?'
+                    img: robotWine,
+                    content: 'want something automated'
                 },
             ]
         }

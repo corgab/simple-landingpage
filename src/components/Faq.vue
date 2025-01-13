@@ -1,6 +1,6 @@
 <template>
-    <div class="container py-5" id="faq-section">
-        <div class="row row-cols-1 row-cols-md-2 align-items-center">
+    <div class="container py-5" id="faq-section" @mouseover="trackSection">
+        <div class="row row-cols-1 row-cols-md-2 align-items-start">
             <div class="col">
                 <h1 class="my-4">{{ title }}</h1>
                 <p class="fs-5 lh-sm">{{ content }}</p>
@@ -33,25 +33,33 @@ export default {
     data() {
         return {
             title: 'Frequently asked questions',
-            content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+            content: 'Find all the answers to the most frequently asked questions about how our service works and how it can help your business grow online',
             faqs: [
                 {
-                    request: 'How can I place an order?',
-                    answer: 'You can place an order directly on our website by adding items to your cart and proceeding to checkout.',
+                    request: 'How does the service work?',
+                    answer: 'Our service allows you to easily create a website for your business without technical skills. With just a few clicks, you can set up the site, customize it, and get it running in no time',
                 },
                 {
-                    request: 'What payment methods are accepted?',
-                    answer: 'We accept payments via credit card, PayPal, and bank transfer.',
+                    request: 'Who can use the service?',
+                    answer: 'The service is designed for small and medium businesses, such as restaurants, hairdressers, shops, and other local businesses that want an online presence without complications',
                 },
                 {
-                    request: 'How can I track my order?',
-                    answer: 'You will receive a tracking number via email once your order has been shipped. You can use it to track your package.',
+                    request: 'How long does it take to create the website? ',
+                    answer: 'Setting up the website is extremely quick. With our system, you can have your site ready in less than an hour',
                 },
                 {
-                    request: 'Can I return or exchange an item?',
-                    answer: 'Yes, we offer returns and exchanges within 30 days of purchase. Please visit our returns page for more details.',
+                    request: 'Is a subscription required?',
+                    answer: 'Yes, our service is subscription-based, giving you full access to the platform and continuous support throughout the duration of your subscription',
                 },
             ]
+        }
+    },
+    methods: {
+        trackSection() {
+            this.$gtag.event('section_view', {
+                event_category: 'scroll',
+                event_label: 'Sezione FAQ',
+            });
         }
     }
 }
