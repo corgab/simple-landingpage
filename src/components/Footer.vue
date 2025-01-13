@@ -5,7 +5,7 @@
                 <h1>{{ title }}</h1>
                 <p>{{ description }}</p>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 flex-wrap col p-0 text-center text-md-start">
+            <div class="d-flex row-cols-1 row-cols-md-3 flex-wrap col p-0 text-center text-md-start">
                 <div class="col col-md-4 ">
                     <h1>Legal</h1>
                     <ul class="p-0">
