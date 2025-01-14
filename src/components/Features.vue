@@ -1,9 +1,9 @@
 <template>
     <div class="container py-5" id="features-section">
         <div class="row row-cols-1 row-cols-sm-2 align-items-center align-items-md-start justify-content-center">
-            <div class="col">
-                <h1 class="py-3">{{ title }}</h1>
-                <ul class="d-flex gap-3 p-0 flex-wrap">
+            <div class="col ">
+                <h1 class="py-3 text-center text-sm-start">{{ title }}</h1>
+                <ul class="d-flex gap-3 p-0 flex-wrap justify-content-center justify-content-sm-start ">
                     <li class="border rounded text-center d-inline-block btn btn-lg btn-white" v-for="card in cards">
                         {{ card }}</li>
                 </ul>

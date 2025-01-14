@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container pt-5">
         <div class="row justify-content-between ">
             <div class="col">
                 <h1>{{ title }}</h1>
