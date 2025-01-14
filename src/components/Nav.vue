@@ -8,7 +8,7 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="collapse navbar-collapse navbar-nav justify-content-center nav-pills" id="navbarNav">
+            <ul class="collapse navbar-collapse navbar-nav nav-pills me-auto justify-content-end" id="navbarNav">
                 <li class="nav-item" v-for="item in navItem">
                     <a class="nav-link " aria-current="page" :href="item.href">{{ item.name }}</a>
                 </li>
