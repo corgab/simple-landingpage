@@ -24,23 +24,23 @@ export default {
         return {
 
             img: 'https://picsum.photos/50/50',
-            navTitle: 'CraftedHub',
+            navTitle: 'CRAFTEDHUB',
             navItem: [
                 {
                     href: "#benefits-section",
-                    name: "Benefits"
+                    name: "Benefici"
                 },
                 {
                     href: "#applycases-section",
-                    name: "Who It's For"
+                    name: "Per chi è"
                 },
                 {
                     href: "#features-section",
-                    name: "Features"
+                    name: "Caratteristiche"
                 },
                 {
                     href: "#testimonials-section",
-                    name: "Testimonials"
+                    name: "Testimonianze"
                 },
                 {
                     href: "#faq-section",

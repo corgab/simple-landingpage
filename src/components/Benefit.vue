@@ -27,17 +27,17 @@ export default {
             cards: [
                 {
                     img: manAtPc,
-                    content: 'Very easy and fast customization',
+                    content: 'Personalizzazione semplice e veloce',
                     icon: '<i class="bi bi-box-fill"></i>'
                 },
                 {
                     img: handshake,
-                    content: 'Professional for your business',
+                    content: 'Professionisti per il tuo business',
                     icon: '<i class="bi bi-briefcase-fill"></i>',
                 },
                 {
                     img: upGraph,
-                    content: 'Attract more customers quickly',
+                    content: 'Attira più clienti rapidamente',
                     icon: '<i class="bi bi-broadcast-pin"></i>'
                 },
             ]

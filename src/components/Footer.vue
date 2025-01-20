@@ -45,14 +45,14 @@
 export default {
     data() {
         return {
-            title: "Your Product",
+            title: "CRAFTEDHUB",
             description:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam delectus ipsum corrupti impedit.",
+                "hub per le tue creazioni",
             navItems: [
-                { href: "#benefits-section", name: "Benefits" },
-                { href: "#applycases-section", name: "Who It's For" },
-                { href: "#features-section", name: "Features" },
-                { href: "#testimonials-section", name: "Testimonials" },
+                { href: "#benefits-section", name: "Benefici" },
+                { href: "#applycases-section", name: "Per chi è" },
+                { href: "#features-section", name: "Caratteristiche" },
+                { href: "#testimonials-section", name: "Testimonianze" },
                 { href: "#faq-section", name: "FAQ" },
             ],
         };

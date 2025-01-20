@@ -32,31 +32,31 @@
 export default {
     data() {
         return {
-            title: 'Frequently asked questions',
-            content: 'Find all the answers to the most frequently asked questions about how our service works and how it can help your business grow online',
+            title: 'Domande frequenti',
+            content: 'Trova tutte le risposte alle domande più frequenti su come funziona il nostro servizio e su come può aiutare la tua attività a crescere online',
             faqs: [
                 {
-                    request: 'How does the service work?',
-                    answer: 'Our service allows you to easily create a website for your business without technical skills. With just a few clicks, you can set up the site, customize it, and get it running in no time',
+                    request: 'Come funziona il servizio?',
+                    answer: 'Il nostro servizio ti consente di creare facilmente un sito web per la tua attività senza competenze tecniche. Con pochi clic, puoi configurare il sito, personalizzarlo e farlo funzionare in pochissimo tempo',
                 },
                 {
-                    request: 'Who can use the service?',
-                    answer: 'The service is designed for small and medium businesses, such as restaurants, hairdressers, shops, and other local businesses that want an online presence without complications',
+                    request: 'Chi può utilizzare il servizio?',
+                    answer: 'Il servizio è progettato per le piccole e medie imprese, come ristoranti, parrucchieri, negozi e altre attività commerciali locali che desiderano una presenza online senza complicazioni',
                 },
                 {
-                    request: 'How long does it take to create the website? ',
-                    answer: 'Setting up the website is extremely quick. With our system, you can have your site ready in less than an hour',
+                    request: 'Quanto tempo ci vuole per creare il sito web?',
+                    answer: "L'impostazione del sito web è estremamente rapida. Con il nostro sistema, puoi avere il tuo sito pronto in meno di un'ora",
                 },
                 {
-                    request: 'Is a subscription required?',
-                    answer: 'Yes, our service is subscription-based, giving you full access to the platform and continuous support throughout the duration of your subscription',
+                    request: 'È richiesto un abbonamento?',
+                    answer: 'Sì, il nostro servizio è basato su abbonamento, dandoti pieno accesso alla piattaforma e supporto continuo per tutta la durata del tuo abbonamento',
                 },
             ]
         }
     },
     methods: {
         trackSection() {
-            this.$gtag.event('section_view', {
+            this.$gtag.event('section_FAQ', {
                 event_category: 'scroll',
                 event_label: 'Sezione FAQ',
             });

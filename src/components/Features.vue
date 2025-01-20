@@ -24,8 +24,8 @@ export default {
     data() {
         return {
             GIF,
-            title: 'Features',
-            cards: ['Simplicity', 'Speed', 'Customization', 'Accessibility', 'Intuitiveness', 'Flexibility', 'Efficiency', 'Automation', 'Ease of use']
+            title: 'Caratteristiche',
+            cards: ['Semplicità', 'Velocità', 'Personalizzazione', 'Personalizzazione', 'Intuitività', 'Flessibilità', 'Efficienza', 'Automazione', "Facilità d'uso"]
         }
     }
 }

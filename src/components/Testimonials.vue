@@ -29,19 +29,19 @@ export default {
         return {
             reviews: [
                 {
-                    content: 'A service that simplifies the creation of a website is what I was looking for',
+                    content: 'Un servizio che semplifica la creazione di un sito web è quello che cercavo',
                     img: carlo,
                     author: 'Carlo D.',
                     stars: 5,
                 },
                 {
-                    content: 'Creating a website without stress and in a short time is a dream come true',
+                    content: 'Creare un sito web senza stress e in poco tempo è un sogno che diventa realtà',
                     img: giulia,
                     author: 'Giulia G.',
                     stars: 4,
                 },
                 {
-                    content: 'The idea of a site that is easy to set up without any technical skills! Finally a service that makes everything simple',
+                    content: "L'idea di un sito che è facile da configurare senza alcuna competenza tecnica! Finalmente un servizio che rende tutto semplice",
                     img: pietro,
                     author: 'Pietro E.',
                     stars: 5,

@@ -18,19 +18,19 @@ import robotWine from '../assets/robot-vino.webp'
 export default {
     data() {
         return {
-            title: 'Who It\'s For',
+            title: "Per chi è",
             cards: [
                 {
                     img: womanAtPc,
-                    content: 'Want to make yourself known on the web'
+                    content: "Vuoi farti conoscere sul web"
                 },
                 {
                     img: confusedMan,
-                    content: 'You don\'t have computer knowledge'
+                    content: "Non hai conoscenze informatiche"
                 },
                 {
                     img: robotWine,
-                    content: 'want something automated'
+                    content: 'vuoi qualcosa di automatizzato'
                 },
             ]
         }

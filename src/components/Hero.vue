@@ -23,14 +23,13 @@ export default {
     data() {
         return {
             title: 'CRAFTEDHUB',
-            subtitle: 'HUB FOR YOUR CREATIONS',
-            cta: 'JOIN US',
+            subtitle: "L'HUB PER LE TUE CREAZIONI",
             cta: {
-                content: 'JOIN US',
+                content: 'UNISCITI A NOI',
                 href: 'https://tally.so/r/mBAedK'
             },
             demo: {
-                content: 'DEMO',
+                content: 'ALPHA',
                 href: 'https://demo.craftedhub.it/',
             },
 
