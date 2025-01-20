@@ -1,9 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg bg">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="">
-                <img :src="img" alt="Logo" class="d-inline-block align-text-top pe-2">{{ navTitle
-                }}</a>
+            <a class="navbar-brand d-flex align-items-center fw-semibold" href="">{{ navTitle }}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,8 +20,6 @@
 export default {
     data() {
         return {
-
-            img: 'https://picsum.photos/50/50',
             navTitle: 'CRAFTEDHUB',
             navItem: [
                 {
